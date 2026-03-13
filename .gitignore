@@ -1,0 +1,59 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+service-account.json
+serviceAccountKey.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# ChromaDB (vector database — generated locally)
+chroma_db/
+backend/chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Test Artifacts
+*.log
+*.txt
+!requirements.txt
+!README.md
+
+# Node (for frontend later)
+node_modules/
+.next/
+dist/
+
+# Misc
+*.bak
+*.tmp
+.cache/

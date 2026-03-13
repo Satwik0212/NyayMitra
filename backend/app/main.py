@@ -5,12 +5,37 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 from app.config import settings
 
 from app.routers import analyze, chat, documents, blockchain, process, precedents, updates, history
+from app.routers.auth import router as auth_router
+import logging
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(asctime)s %(levelname)s %(name)s: %(message)s"
+)
+
+from app.services.llm_orchestrator import orchestrator
+from app.services.blockchain_service import blockchain_service
+from app.services.evidence_service import evidence_service
+from app.services.firebase_service import firebase_service
+
+logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title=settings.APP_NAME,
     description="Backend infrastructure for NyayMitra",
     version=settings.VERSION,
 )
+
+@app.on_event("startup")
+async def startup_event():
+    print("\n" + "="*50)
+    print(" [NYAYMITRA] NyayMitra API v1.0 starting...")
+    print("="*50)
+    print(f"[OK] LLM Orchestrator: {'ready' if orchestrator else '[FAIL] unavailable'}")
+    print(f"{'[OK]' if blockchain_service.is_available() else '[FAIL]'} Blockchain: {'connected' if blockchain_service.is_available() else 'unavailable'}")
+    print(f"{'[OK]' if evidence_service.is_available() else '[FAIL]'} Evidence/IPFS: {'connected' if evidence_service.is_available() else 'unavailable'}")
+    print(f"{'[OK]' if firebase_service.is_available() else '[FAIL]'} Firebase: {'connected' if firebase_service.is_available() else 'unavailable'}")
+    print("="*50 + "\n")
 
 app.add_middleware(
     CORSMiddleware,
@@ -54,9 +79,18 @@ async def root():
 
 @app.get("/health")
 async def health():
-    return {"status": "ok"}
+    return {
+        "status": "healthy",
+        "services": {
+            "llm": True if orchestrator else False,
+            "blockchain": blockchain_service.is_available(),
+            "evidence": evidence_service.is_available(),
+            "firebase": firebase_service.is_available()
+        }
+    }
 
 # Register Routers
+app.include_router(auth_router, prefix="/api/v1/auth", tags=["Authentication"])
 app.include_router(analyze.router, prefix="/api/v1", tags=["analyze"])
 app.include_router(chat.router, prefix="/api/v1", tags=["chat"])
 app.include_router(documents.router, prefix="/api/v1", tags=["documents"])

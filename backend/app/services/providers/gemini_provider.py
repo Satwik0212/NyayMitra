@@ -14,6 +14,10 @@ Note: The SDK is synchronous. Called inside async methods — fine at hackathon 
 
 import re
 from typing import Optional, AsyncGenerator
+import warnings
+
+warnings.filterwarnings("ignore", category=FutureWarning, module="google.generativeai")
+
 from .base_provider import BaseProvider, LLMResponse
 
 

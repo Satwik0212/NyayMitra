@@ -354,13 +354,13 @@ class LLMOrchestrator:
                 if response.success:
                     self.rate_limiter.record_use(name)
                     logger.info(
-                        "✅ %s/%s [%s, attempt %d, %.0f ms]",
+                        "[OK] %s/%s [%s, attempt %d, %.0f ms]",
                         name, model, task, attempt, response.latency_ms,
                     )
                     return response
 
                 logger.warning(
-                    "❌ %s/%s attempt %d failed: %s", name, model, attempt, response.error
+                    "[FAIL] %s/%s attempt %d failed: %s", name, model, attempt, response.error
                 )
 
                 if response.error == "rate_limit":
@@ -419,13 +419,13 @@ class LLMOrchestrator:
             (self.sarvam, "SarvamAI",     "translate API"),
             (self.hf,     "HuggingFace",  "all-MiniLM-L6-v2 embeddings"),
         ]
-        print("\n── NyayMitra LLM Orchestrator ────────────────────────────")
+        print("\n-- NyayMitra LLM Orchestrator ----------------------------")
         for provider, label, info in providers:
             if provider.is_available():
-                print(f"  ✅ {label} initialized ({info})")
+                print(f"  [OK] {label} initialized ({info})")
             else:
-                print(f"  ❌ {label} not configured (missing API key)")
-        print("──────────────────────────────────────────────────────────\n")
+                print(f"  [FAIL] {label} not configured (missing API key)")
+        print("----------------------------------------------------------\n")
 
 
 # ── Singleton instance ─────────────────────────────────────────────────────────
