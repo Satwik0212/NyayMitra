@@ -1,10 +1,13 @@
-
 .env
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 .pytest_cache/
+.venv/
 .venv
 env/
 venv/
 ENV/
+chroma_db/
+serviceAccountKey.json
