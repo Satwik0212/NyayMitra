@@ -1,0 +1,30 @@
+# NyayMitra Backend Dependencies
+
+# ── Web Framework ──────────────────────────────────────────────────────────────
+fastapi
+uvicorn[standard]
+python-multipart
+
+# ── Environment ────────────────────────────────────────────────────────────────
+python-dotenv
+
+# ── LLM Providers ─────────────────────────────────────────────────────────────
+groq                        # Groq SDK — LLaMA / Mixtral fast inference
+google-generativeai         # Gemini 2.0 Flash + embeddings
+
+# ── HTTP Client (SarvamAI + HuggingFace REST calls) ───────────────────────────
+httpx
+
+# ── Firebase ───────────────────────────────────────────────────────────────────
+firebase-admin
+
+# ── Blockchain ────────────────────────────────────────────────────────────────
+web3
+
+# ── Document Processing ────────────────────────────────────────────────────────
+PyMuPDF                     # PDF text extraction
+python-docx                 # DOCX text extraction
+Pillow                      # Image handling
+
+# ── Vector Store / RAG ────────────────────────────────────────────────────────
+chromadb                    # Local vector DB for RAG pipeline
