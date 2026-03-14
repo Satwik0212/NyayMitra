@@ -38,7 +38,6 @@ async def startup_event():
     print(f"{'[OK]' if firebase_service.is_available() else '[FAIL]'} Firebase: {'connected' if firebase_service.is_available() else 'unavailable'}")
     
 
-        
     print("="*50 + "\n")
 
 app.add_middleware(

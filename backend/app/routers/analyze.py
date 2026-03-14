@@ -6,6 +6,7 @@ from app.services.triage_service import quick_triage
 from app.services.contract_detector import detect_contract_context
 from app.services.llm_orchestrator import orchestrator
 from app.services.rag_service import rag_service
+
 from app.prompts.analysis_prompts import DISPUTE_ANALYSIS_PROMPT, URGENCY_CLASSIFICATION_PROMPT
 from app.services.firebase_service import firebase_service
 import logging
@@ -40,6 +41,7 @@ async def analyze_dispute(
     
     # 4. Mock RAG retrieval
     rag_context = await rag_service.retrieve_context(request.text, k=3)
+
     
     try:
         # 5. Build prompt

@@ -12,6 +12,7 @@ from app.services.language_service import detect_language, get_response_language
 from app.services.firebase_service import firebase_service
 from app.services.rag_service import rag_service
 
+
 logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/chat", tags=["Chat"])
