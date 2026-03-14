@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from app.config import settings
 
-from app.routers import analyze, chat, documents, blockchain, process, precedents, updates, history, lawyers
+from app.routers import analyze, chat, documents, blockchain, process, precedents, updates, history
 from app.routers.auth import router as auth_router
 import logging
 
@@ -17,7 +17,7 @@ from app.services.llm_orchestrator import orchestrator
 from app.services.blockchain_service import blockchain_service
 from app.services.evidence_service import evidence_service
 from app.services.firebase_service import firebase_service
-from app.services.lawyer_service import lawyer_service
+
 
 logger = logging.getLogger(__name__)
 
@@ -37,11 +37,7 @@ async def startup_event():
     print(f"{'[OK]' if evidence_service.is_available() else '[FAIL]'} Evidence/IPFS: {'connected' if evidence_service.is_available() else 'unavailable'}")
     print(f"{'[OK]' if firebase_service.is_available() else '[FAIL]'} Firebase: {'connected' if firebase_service.is_available() else 'unavailable'}")
     
-    if firebase_service.is_available():
-        lawyer_service.initialize(firebase_service.db)
-        print("[OK] Lawyer Database: initialized")
-    else:
-        print("[FAIL] Lawyer Database: unavailable")
+
         
     print("="*50 + "\n")
 
@@ -107,4 +103,4 @@ app.include_router(process.router, prefix="/api/v1", tags=["process"])
 app.include_router(precedents.router, prefix="/api/v1", tags=["precedents"])
 app.include_router(updates.router, prefix="/api/v1", tags=["updates"])
 app.include_router(history.router, prefix="/api/v1", tags=["history"])
-app.include_router(lawyers.router, prefix="/api/v1", tags=["lawyers"])
+
