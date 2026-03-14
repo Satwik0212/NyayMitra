@@ -1,0 +1,260 @@
+{
+  "act_name": "The Consumer Protection Act, 2019",
+  "act_year": 2019,
+  "jurisdiction": "India",
+  "total_sections": 107,
+  "chapters": [
+    {
+      "chapter_title": "Chapter I: Preliminary",
+      "sections_range": "1-2",
+      "section_titles": [
+        "Section 1: Short title, extent, commencement and application.",
+        "Section 2: Definitions."
+      ],
+      "start_line": 1,
+      "end_line": 11,
+      "summary": "This chapter introduces the Act and defines key terms used throughout. It explains the Act's purpose, scope, and application.",
+      "keywords": [
+        "consumer",
+        "protection",
+        "rights",
+        "definition",
+        "application"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter II: Consumer Protection Councils",
+      "sections_range": "3-9",
+      "section_titles": [
+        "Section 3: Central Consumer Protection Council.",
+        "Section 4: Procedure for meetings of Central Council.",
+        "Section 5: Objects of Central Council.",
+        "Section 6: State Consumer Protection Councils.",
+        "Section 7: Objects of State Council.",
+        "Section 8: District Consumer Protection Council.",
+        "Section 9: Objects of District Council."
+      ],
+      "start_line": 12,
+      "end_line": 26,
+      "summary": "This chapter establishes consumer protection councils at the central, state, and district levels to promote and protect consumer rights.",
+      "keywords": [
+        "council",
+        "consumer",
+        "protection",
+        "central",
+        "state",
+        "district"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter III: Central Consumer Protection Authority",
+      "sections_range": "10-27",
+      "section_titles": [
+        "Section 10: Establishment of Central Consumer Protection Authority.",
+        "Section 11: Qualifications, method of recruitment, etc., of Chief Commissioner and Commissioners.",
+        "Section 12: Vacancy, etc., not to invalidate proceedings of Central Authority.",
+        "Section 13: Appointment of officers, experts, professionals and other employees of Central Authority.",
+        "Section 14: Procedure of Central Authority.",
+        "Section 15: Investigation Wing.",
+        "Section 16: Power of District Collector.",
+        "Section 17: Complaints to authorities.",
+        "Section 18: Powers and functions of Central Authority.",
+        "Section 19: Power of Central Authority to refer matter for investigation or to other Regulator.",
+        "Section 20: Power of Central Authority to recall goods, etc.",
+        "Section 21: Power of Central Authority to issue directions and penalties against false or misleading advertisements.",
+        "Section 22: Search and seizure.",
+        "Section 23: Designation of any statutory authority or body to function as Central Authority.",
+        "Section 24: Appeal.",
+        "Section 25: Grants by Central Government.",
+        "Section 26: Accounts and audit.",
+        "Section 27: Furnishing of annual reports, etc."
+      ],
+      "start_line": 27,
+      "end_line": 44,
+      "summary": "This chapter sets up the Central Consumer Protection Authority to regulate consumer protection, investigate complaints, and enforce consumer rights.",
+      "keywords": [
+        "central",
+        "authority",
+        "consumer",
+        "protection",
+        "investigation",
+        "enforcement"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter IV: Consumer Disputes Redressal Commission",
+      "sections_range": "28-73",
+      "section_titles": [
+        "Section 28: Establishment of District Consumer Disputes Redressal Commission.",
+        "Section 29: Qualifications, etc., of President and members of District Commission.",
+        "Section 30: Salaries, allowances and other terms and conditions of service of President and members of District Commission.",
+        "Section 31: Transitional provision.",
+        "Section 32: Vacancy in office of member of District Commission.",
+        "Section 33: Officers and other employees of District Commission.",
+        "Section 34: Jurisdiction of District Commission.",
+        "Section 35: Manner in which complaint shall be made.",
+        "Section 36: Proceedings before District Commission.",
+        "Section 37: Reference to mediation.",
+        "Section 38: Procedure on admission of complaint.",
+        "Section 39: Findings of District Commission.",
+        "Section 40: Review by District Commission in certain cases.",
+        "Section 41: Appeal against order of District Commission.",
+        "Section 42: Establishment of State Consumer Disputes Redressal Commission.",
+        "Section 43: Qualifications, etc., of President and members of State Commission.",
+        "Section 44: Salaries, allowances and other terms and conditions of service of President and members of State Commission.",
+        "Section 45: Transitional provision.",
+        "Section 46: Officers and employees of State Commission.",
+        "Section 47: Jurisdiction of State Commission.",
+        "Section 48: Transfer of cases.",
+        "Section 49: Procedure applicable to State Commission.",
+        "Section 50: Review by State Commission in certain cases.",
+        "Section 51: Appeal to National Commission.",
+        "Section 52: Hearing of appeal.",
+        "Section 53: Establishment of National Consumer Disputes Redressal Commission.",
+        "Section 54: Composition of National Commission.",
+        "Section 55: Qualifications, etc., of President and members of National Commission.",
+        "Section 56: Transitional provision.",
+        "Section 57: Other officers and employees of National Commission.",
+        "Section 58: Jurisdiction of National Commission.",
+        "Section 59: Procedure applicable to National Commission.",
+        "Section 60: Review by National Commission in certain cases.",
+        "Section 61: Power to set aside ex parte orders.",
+        "Section 62: Transfer of cases.",
+        "Section 63: Vacancy in office of President of National Commission.",
+        "Section 64: Vacancies or defects in appointment not to invalidate orders.",
+        "Section 65: Service of notice, etc.",
+        "Section 66: Experts to assist National Commission or State Commission.",
+        "Section 67: Appeal against order of National Commission.",
+        "Section 68: Finality of orders.",
+        "Section 69: Limitation period.",
+        "Section 70: Administrative control.",
+        "Section 71: Enforcement of orders of District Commission, State Commission and National Commission.",
+        "Section 72: Penalty for non-compliance of order.",
+        "Section 73: Appeal against order passed under section 72."
+      ],
+      "start_line": 45,
+      "end_line": 69,
+      "summary": "This chapter establishes consumer disputes redressal commissions at the district, state, and national levels to resolve consumer complaints and disputes.",
+      "keywords": [
+        "consumer",
+        "disputes",
+        "redressal",
+        "commission",
+        "district",
+        "state",
+        "national"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter V: Mediation",
+      "sections_range": "74-81",
+      "section_titles": [
+        "Section 74: Establishment of consumer mediation cell.",
+        "Section 75: Empanelment of mediators.",
+        "Section 76: Nomination of mediators from panel.",
+        "Section 77: Duty of mediator to disclose certain facts.",
+        "Section 78: Replacement of mediator in certain cases.",
+        "Section 79: Procedure for mediation.",
+        "Section 80: Settlement through mediation.",
+        "Section 81: Recording settlement and passing of order."
+      ],
+      "start_line": 70,
+      "end_line": 76,
+      "summary": "This chapter provides for the establishment of consumer mediation cells and the process of mediation to resolve consumer disputes.",
+      "keywords": [
+        "mediation",
+        "consumer",
+        "disputes",
+        "resolution",
+        "cell"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter VI: Product Liability",
+      "sections_range": "82-87",
+      "section_titles": [
+        "Section 82: Application of Chapter.",
+        "Section 83: Product liability action",
+        "Section 84: Liability of product manufacturer.",
+        "Section 85: Liability of product service provider.",
+        "Section 86: Liability of product sellers.",
+        "Section 87: Exceptions to product liability action."
+      ],
+      "start_line": 77,
+      "end_line": 83,
+      "summary": "This chapter deals with product liability, including the liability of product manufacturers, service providers, and sellers, and exceptions to product liability actions.",
+      "keywords": [
+        "product",
+        "liability",
+        "manufacturer",
+        "service",
+        "provider",
+        "seller"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter VII: Offences and Penalties",
+      "sections_range": "88-93",
+      "section_titles": [
+        "Section 88: Penalty for non-compliance of direction of Central Authority.",
+        "Section 89: Punishment for false or misleading advertisement.",
+        "Section 90: Punishment for manufacturing for sale or storing, selling or distributing or importing products containing adulterant.",
+        "Section 91: Punishment for manufacturing for sale or for storing or selling or distributing or importing spurious goods.",
+        "Section 92: Cognizance of offence by court.",
+        "Section 93: Vexatious search."
+      ],
+      "start_line": 84,
+      "end_line": 90,
+      "summary": "This chapter prescribes penalties and punishments for various offenses, including non-compliance with Central Authority directions, false or misleading advertisements, and manufacturing or selling adulterated or spurious goods.",
+      "keywords": [
+        "offence",
+        "penalty",
+        "punishment",
+        "advertisement",
+        "adulterant",
+        "spurious"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter VIII: Miscellaneous",
+      "sections_range": "94-107",
+      "section_titles": [
+        "Section 94: Measures to prevent unfair trade practices in e-commerce, direct selling, etc.",
+        "Section 95: Presidents, members, Chief Commissioner, Commissioner and certain officers to be public servants.",
+        "Section 96: Compounding of offences.",
+        "Section 97: Manner of crediting penalty.",
+        "Section 98: Protection of action taken in good faith.",
+        "Section 99: Power to give directions by Central Government.",
+        "Section 100: Act not in derogation of any other.",
+        "Section 101: Power of Central Government to make rules.",
+        "Section 102: Power of State Government to make rules.",
+        "Section 103: Power of National Commission to make regulations.",
+        "Section 104: Power of Central Authority to make regulations.",
+        "Section 105: Rules and regulations to be laid before each House of Parliament.",
+        "Section 106: Power to Remove Difficulties.",
+        "Section 107: Repeal and savings."
+      ],
+      "start_line": 91,
+      "end_line": 107,
+      "summary": "This chapter contains miscellaneous provisions, including measures to prevent unfair trade practices, compounding of offenses, protection of action taken in good faith, and the power to make rules and regulations.",
+      "keywords": [
+        "miscellaneous",
+        "unfair",
+        "trade",
+        "practices",
+        "compounding",
+        "offences",
+        "rules",
+        "regulations"
+      ],
+      "sub_sections": []
+    }
+  ]
+}

@@ -10,8 +10,24 @@ from app.services.llm_orchestrator import orchestrator
 from app.prompts.chat_prompts import CHAT_SYSTEM_PROMPT, CHAT_STREAM_PROMPT
 from app.services.language_service import detect_language, get_response_language_instruction
 from app.services.firebase_service import firebase_service
+from app.rag import legal_retriever
+
+import hashlib
+import logging
 
 logger = logging.getLogger(__name__)
+
+# Simple RAG cache — reuse legal context within same conversation topic
+_rag_cache = {}  # key: first_message_hash -> value: rag_context string
+
+def _get_cache_key(message: str, history: list) -> str:
+    """Generate cache key from the first message in conversation."""
+    if history and len(history) > 0:
+        # Use first user message as cache key (topic doesn't change)
+        first_msg = next((m.content for m in history if m.role == "user"), message)
+    else:
+        first_msg = message
+    return hashlib.md5(first_msg.encode()).hexdigest()
 
 router = APIRouter(prefix="/chat", tags=["Chat"])
 
@@ -39,9 +55,31 @@ async def chat_interaction(
         recent_history = request.history[-6:] if len(request.history) > 6 else request.history
         history_context = "\n".join([f"{m.role}: {m.content}" for m in recent_history])
         
-        # 3. RAG Context placeholder
-        rag_context = "" # TODO: Retrieve context
-        rag_context_section = "LEGAL KNOWLEDGE CONTEXT:\n" + rag_context if rag_context else ""
+        # 3. Optimized Reasoning-based RAG retrieval
+        cache_key = _get_cache_key(request.message, request.history)
+        
+        # Optimization 3: Skip RAG if conversation already has enough context (3+ messages)
+        skip_rag = len(request.history) >= 4  # 2 user + 2 assistant messages
+        
+        if skip_rag:
+            rag_context = "" # Context already in prompt history
+        elif cache_key in _rag_cache:
+            rag_context = _rag_cache[cache_key] # Optimization 1: Cache hit
+        else:
+            rag_context = await legal_retriever.retrieve(request.message)
+            _rag_cache[cache_key] = rag_context
+            
+            # Limit cache size
+            if len(_rag_cache) > 100:
+                keys = list(_rag_cache.keys())
+                for k in keys[:50]:
+                    del _rag_cache[k]
+
+        rag_context_section = (
+            "LEGAL KNOWLEDGE CONTEXT (from Indian law corpus):\n" + rag_context 
+            if rag_context 
+            else ""
+        )
         
         # 4. Build prompt
         prompt = CHAT_SYSTEM_PROMPT.format(
@@ -85,12 +123,32 @@ async def chat_stream(
     lang = detect_language(request.message)
     response_language = get_response_language_instruction(lang)
     
+    # 2. Build conversation context
     recent_history = request.history[-6:] if len(request.history) > 6 else request.history
     history_context = "\n".join([f"{m.role}: {m.content}" for m in recent_history])
+    
+    # Optimized RAG Retrieval for stream
+    cache_key = _get_cache_key(request.message, request.history)
+    skip_rag = len(request.history) >= 4
+    
+    if skip_rag:
+        rag_context = ""
+    elif cache_key in _rag_cache:
+        rag_context = _rag_cache[cache_key]
+    else:
+        rag_context = await legal_retriever.retrieve(request.message)
+        _rag_cache[cache_key] = rag_context
+    
+    rag_context_section = (
+        "LEGAL KNOWLEDGE CONTEXT (from Indian law corpus):\n" + rag_context 
+        if rag_context 
+        else ""
+    )
     
     prompt = CHAT_STREAM_PROMPT.format(
         response_language=response_language,
         conversation_context=history_context,
+        rag_context_section=rag_context_section,
         user_message=request.message
     )
     

@@ -1,0 +1,241 @@
+{
+  "act_name": "The Motor Vehicles Act, 1988",
+  "act_year": 1988,
+  "jurisdiction": "India",
+  "total_sections": 217,
+  "chapters": [
+    {
+      "chapter_title": "Chapter I: Preliminary",
+      "sections_range": "1-2",
+      "section_titles": [
+        "Section 1: Short title, extent and commencement",
+        "Section 2: Definitions"
+      ],
+      "start_line": 1,
+      "end_line": 10,
+      "summary": "This chapter introduces the Motor Vehicles Act, 1988, and defines key terms used in the Act. It provides the short title, extent, and commencement of the Act.",
+      "keywords": [
+        "motor vehicles",
+        "definitions",
+        "extent",
+        "commencement"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter II: Licensing of Drivers of Motor Vehicles",
+      "sections_range": "3-28",
+      "section_titles": [
+        "Section 3: Necessity for driving licence",
+        "Section 4: Age limit in connection with driving of motor vehicles"
+      ],
+      "start_line": 11,
+      "end_line": 50,
+      "summary": "This chapter deals with the licensing of drivers of motor vehicles, including the necessity for a driving licence, age limits, and the responsibilities of vehicle owners.",
+      "keywords": [
+        "driving licence",
+        "age limit",
+        "vehicle owners"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter III: Licensing of Conductors of Stage Carriages",
+      "sections_range": "29-38",
+      "section_titles": [
+        "Section 29: Necessity for conductor’s licence",
+        "Section 30: Grant of conductor’s licence"
+      ],
+      "start_line": 51,
+      "end_line": 70,
+      "summary": "This chapter focuses on the licensing of conductors of stage carriages, including the necessity for a conductor's licence and the grant of such licences.",
+      "keywords": [
+        "conductor's licence",
+        "stage carriages"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter IV: Registration of Motor Vehicles",
+      "sections_range": "39-65",
+      "section_titles": [
+        "Section 39: Necessity for registration",
+        "Section 40: Registration, where to be made"
+      ],
+      "start_line": 71,
+      "end_line": 120,
+      "summary": "This chapter covers the registration of motor vehicles, including the necessity for registration, where to register, and the process of registration.",
+      "keywords": [
+        "registration",
+        "motor vehicles"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter V: Control of Transport Vehicles",
+      "sections_range": "66-96",
+      "section_titles": [
+        "Section 66: Necessity for permits",
+        "Section 67: Power to State Government to control road transport"
+      ],
+      "start_line": 121,
+      "end_line": 170,
+      "summary": "This chapter deals with the control of transport vehicles, including the necessity for permits and the power of the State Government to control road transport.",
+      "keywords": [
+        "transport vehicles",
+        "permits",
+        "road transport"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter VI: Special Provisions Relating to State Transport Undertakings",
+      "sections_range": "97-108",
+      "section_titles": [
+        "Section 97: Definition",
+        "Section 98: Chapter to override Chapter V and other laws"
+      ],
+      "start_line": 171,
+      "end_line": 200,
+      "summary": "This chapter provides special provisions relating to State transport undertakings, including definitions and the relationship with other laws.",
+      "keywords": [
+        "State transport undertakings",
+        "special provisions"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter VII: Construction, Equipment and Maintenance of Motor Vehicles",
+      "sections_range": "109-111",
+      "section_titles": [
+        "Section 109: General provision regarding construction and maintenance of vehicles",
+        "Section 110: Power of Central Government to make rules"
+      ],
+      "start_line": 201,
+      "end_line": 210,
+      "summary": "This chapter focuses on the construction, equipment, and maintenance of motor vehicles, including general provisions and the power of the Central Government to make rules.",
+      "keywords": [
+        "motor vehicles",
+        "construction",
+        "maintenance"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter VIII: Control of Traffic",
+      "sections_range": "112-138",
+      "section_titles": [
+        "Section 112: Limits of speed",
+        "Section 113: Limits of weight and limitations on use"
+      ],
+      "start_line": 211,
+      "end_line": 250,
+      "summary": "This chapter deals with the control of traffic, including speed limits, weight limits, and other regulations.",
+      "keywords": [
+        "traffic control",
+        "speed limits",
+        "weight limits"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter IX: Motor Vehicles Temporarily Leaving or Visiting India",
+      "sections_range": "139",
+      "section_titles": [
+        "Section 139: Power of Central Government to make rules"
+      ],
+      "start_line": 251,
+      "end_line": 260,
+      "summary": "This chapter provides provisions for motor vehicles temporarily leaving or visiting India, including the power of the Central Government to make rules.",
+      "keywords": [
+        "motor vehicles",
+        "temporarily visiting"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter X: Liability Without Fault in Certain Cases",
+      "sections_range": "140-144",
+      "section_titles": [
+        "Section 140: Liability to pay compensation in certain cases on the principle of no fault",
+        "Section 141: Provisions as to other right to claim compensation for death or permanent disablement"
+      ],
+      "start_line": 261,
+      "end_line": 280,
+      "summary": "This chapter deals with liability without fault in certain cases, including the principle of no fault and provisions for claiming compensation.",
+      "keywords": [
+        "liability",
+        "no fault",
+        "compensation"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XI: Insurance of Motor Vehicles Against Third Party Risks",
+      "sections_range": "145-164",
+      "section_titles": [
+        "Section 145: Definitions",
+        "Section 146: Necessity for insurance against third party risk"
+      ],
+      "start_line": 281,
+      "end_line": 310,
+      "summary": "This chapter focuses on the insurance of motor vehicles against third party risks, including definitions and the necessity for insurance.",
+      "keywords": [
+        "insurance",
+        "third party risks",
+        "motor vehicles"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XII: Claims Tribunals",
+      "sections_range": "165-176",
+      "section_titles": [
+        "Section 165: Claims Tribunals",
+        "Section 166: Application for compensation"
+      ],
+      "start_line": 311,
+      "end_line": 340,
+      "summary": "This chapter deals with claims tribunals, including their establishment and the process of applying for compensation.",
+      "keywords": [
+        "claims tribunals",
+        "compensation"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XIII: Offences, Penalties and Procedure",
+      "sections_range": "177-210",
+      "section_titles": [
+        "Section 177: General provision for punishment of offences",
+        "Section 178: Penalty for travelling without pass or ticket and for dereliction of duty on the part of conductor and refusal to ply contract carriage, etc."
+      ],
+      "start_line": 341,
+      "end_line": 390,
+      "summary": "This chapter provides provisions for offences, penalties, and procedure, including general provisions for punishment and specific penalties for various offences.",
+      "keywords": [
+        "offences",
+        "penalties",
+        "procedure"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XIV: Miscellaneous",
+      "sections_range": "211-217",
+      "section_titles": [
+        "Section 211: Power to levy fee",
+        "Section 212: Publication, commencement and laying of rules and notifications"
+      ],
+      "start_line": 391,
+      "end_line": 410,
+      "summary": "This chapter includes miscellaneous provisions, such as the power to levy fees and the publication of rules and notifications.",
+      "keywords": [
+        "miscellaneous",
+        "fees",
+        "rules"
+      ],
+      "sub_sections": []
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "act_name": "The Right to Information Act, 2005",
+  "act_year": 2005,
+  "jurisdiction": "India",
+  "total_sections": 31,
+  "chapters": [
+    {
+      "chapter_title": "CHAPTER I: PRELIMINARY",
+      "sections_range": "1-2",
+      "section_titles": [
+        "Section 1: Short title, extent and commencement.",
+        "Section 2: Definitions."
+      ],
+      "start_line": 1,
+      "end_line": 5,
+      "summary": "This chapter explains the purpose and scope of the Act.",
+      "keywords": [
+        "right",
+        "information",
+        "citizen",
+        "public"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "CHAPTER II: RIGHT TO INFORMATION AND OBLIGATIONS OF PUBLIC AUTHORITIES",
+      "sections_range": "3-11",
+      "section_titles": [
+        "Section 3: Right to information.",
+        "Section 4: Obligations of public authorities.",
+        "Section 5: Designation of Public Information Officers.",
+        "Section 6: Request for obtaining information.",
+        "Section 7: Disposal of request.",
+        "Section 8: Exemption from disclosure of information.",
+        "Section 9: Grounds for rejection to access in certain cases.",
+        "Section 10: Severability.",
+        "Section 11: Third party information."
+      ],
+      "start_line": 6,
+      "end_line": 17,
+      "summary": "This chapter explains the right to information and the obligations of public authorities.",
+      "keywords": [
+        "public",
+        "authority",
+        "information",
+        "request"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "CHAPTER III: THE CENTRAL INFORMATION COMMISSION",
+      "sections_range": "12-14",
+      "section_titles": [
+        "Section 12: Constitution of Central Information Commission.",
+        "Section 13: Term of office and conditions of service.",
+        "Section 14: Removal of Chief Information Commissioner or Information Commissioner."
+      ],
+      "start_line": 18,
+      "end_line": 24,
+      "summary": "This chapter explains the composition and functions of the Central Information Commission.",
+      "keywords": [
+        "commission",
+        "information",
+        "officer"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "CHAPTER IV: THE STATE INFORMATION COMMISSION",
+      "sections_range": "15-16",
+      "section_titles": [
+        "Section 15: Constitution of State Information Commission.",
+        "Section 16: Term of office and conditions of service."
+      ],
+      "start_line": 25,
+      "end_line": 30,
+      "summary": "This chapter explains the composition and functions of the State Information Commission.",
+      "keywords": [
+        "commission",
+        "information",
+        "officer"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "CHAPTER V: POWERS AND FUNCTIONS OF THE INFORMATION COMMISSIONS, APPEAL AND PENALTIES",
+      "sections_range": "17-20",
+      "section_titles": [
+        "Section 17: Removal of State Chief Information Commissioner or State Information Commissioner.",
+        "Section 18: Powers and functions of Information Commissions.",
+        "Section 19: Appeal.",
+        "Section 20: Penalties."
+      ],
+      "start_line": 31,
+      "end_line": 36,
+      "summary": "This chapter explains the powers and functions of the Information Commissions and the appeal process.",
+      "keywords": [
+        "appeal",
+        "penalty",
+        "commission"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "CHAPTER VI: MISCELLANEOUS",
+      "sections_range": "21-31",
+      "section_titles": [
+        "Section 21: Protection of action taken in good faith.",
+        "Section 22: Act to have overriding effect.",
+        "Section 23: Bar of jurisdiction of courts.",
+        "Section 24: Act not to apply in certain organizations.",
+        "Section 25: Monitoring and reporting.",
+        "Section 26: Appropriate Government to prepare programmes.",
+        "Section 27: Power to make rules by appropriate Government.",
+        "Section 28: Power to make rules by competent authority.",
+        "Section 29: Laying of rules.",
+        "Section 30: Power to remove difficulties.",
+        "Section 31: Repeal."
+      ],
+      "start_line": 37,
+      "end_line": 63,
+      "summary": "This chapter deals with miscellaneous provisions of the Act.",
+      "keywords": [
+        "miscellaneous",
+        "rules",
+        "repeal"
+      ],
+      "sub_sections": []
+    }
+  ]
+}

@@ -7,6 +7,7 @@ from app.services.contract_detector import detect_contract_context
 from app.services.llm_orchestrator import orchestrator
 from app.prompts.analysis_prompts import DISPUTE_ANALYSIS_PROMPT, URGENCY_CLASSIFICATION_PROMPT
 from app.services.firebase_service import firebase_service
+from app.rag import legal_retriever
 import logging
 
 logger = logging.getLogger(__name__)
@@ -37,13 +38,17 @@ async def analyze_dispute(
     # 3. Contract context
     is_contract = detect_contract_context(request.text)
     
-    # 4. Mock RAG retrieval
-    rag_context = "" # TODO: Replace with rag_service.retrieve_context() when RAG pipeline is ready
+    # 4. Reasoning-based RAG retrieval
+    rag_context = await legal_retriever.retrieve(request.text)
     
     try:
         # 5. Build prompt
         response_language = get_response_language_instruction(lang)
-        rag_context_section = "LEGAL KNOWLEDGE CONTEXT:\n" + rag_context if rag_context else "No legal corpus context available yet."
+        rag_context_section = (
+            "LEGAL KNOWLEDGE CONTEXT (from Indian law corpus):\n" + rag_context 
+            if rag_context 
+            else "No specific legal corpus context retrieved."
+        )
         
         prompt = DISPUTE_ANALYSIS_PROMPT.format(
             dispute_text=request.text,

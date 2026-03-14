@@ -78,7 +78,7 @@ class LLMOrchestrator:
             "analysis": [
                 {"provider": self.groq,   "model": "llama-3.3-70b-versatile"},
                 {"provider": self.gemini, "model": "gemini-2.0-flash"},
-                {"provider": self.groq,   "model": "mixtral-8x7b-32768"},
+                {"provider": self.groq,   "model": "llama-3.1-8b-instant"},
             ],
             "chat": [
                 {"provider": self.groq,   "model": "llama-3.3-70b-versatile"},
@@ -90,9 +90,9 @@ class LLMOrchestrator:
                 {"provider": self.groq,   "model": "llama-3.3-70b-versatile"},
             ],
             "classify": [
+                {"provider": self.gemini, "model": "gemini-2.0-flash"},
                 {"provider": self.groq,   "model": "llama-3.1-8b-instant"},
                 {"provider": self.groq,   "model": "gemma2-9b-it"},
-                {"provider": self.gemini, "model": "gemini-2.0-flash"},
             ],
             "stream": [
                 {"provider": self.groq,   "model": "llama-3.3-70b-versatile"},
@@ -386,7 +386,7 @@ class LLMOrchestrator:
     def _parse_json_safe(self, content: str) -> dict:
         """
         Parse JSON from LLM output. Tries direct parse first, then boundary extraction.
-        Raises ValueError if no valid JSON can be found.
+        Supports both single objects {} and arrays [].
         """
         content = content.strip()
 
@@ -396,12 +396,34 @@ class LLMOrchestrator:
         except json.JSONDecodeError:
             pass
 
-        # Extract by finding outermost { ... }
-        start = content.find("{")
-        end   = content.rfind("}")
+        # Try to find the first and last JSON boundary characters
+        # Could be an object {} or an array []
+        start_brace = content.find("{")
+        start_bracket = content.find("[")
+        
+        # Determine the earliest starting character
+        if start_brace == -1: 
+            start = start_bracket
+        elif start_bracket == -1:
+            start = start_brace
+        else:
+            start = min(start_brace, start_bracket)
+
+        end_brace = content.rfind("}")
+        end_bracket = content.rfind("]")
+        
+        # Determine the latest ending character
+        if end_brace == -1:
+            end = end_bracket
+        elif end_bracket == -1:
+            end = end_brace
+        else:
+            end = max(end_brace, end_bracket)
+
         if start != -1 and end != -1 and end > start:
             try:
-                return json.loads(content[start : end + 1])
+                json_str = content[start : end + 1]
+                return json.loads(json_str)
             except json.JSONDecodeError:
                 pass
 

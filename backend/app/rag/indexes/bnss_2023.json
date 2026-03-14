@@ -1,0 +1,456 @@
+{
+  "act_name": "The Bharatiya Nagarik Suraksha Sanhita, 2023",
+  "act_year": 2023,
+  "jurisdiction": "India",
+  "total_sections": 534,
+  "chapters": [
+    {
+      "chapter_title": "Chapter I: Preliminary",
+      "sections_range": "1-5",
+      "section_titles": [
+        "Section 1: Short title, extent and commencement",
+        "Section 2: Definitions",
+        "Section 3: Construction of references",
+        "Section 4: Trial of offences under Bhartiya Nyaya Sanhita and other laws",
+        "Section 5: Saving"
+      ],
+      "start_line": 1,
+      "end_line": 45,
+      "summary": "This chapter provides the preliminary information about the Act, including its title, extent, and commencement. It also defines key terms and explains how the Act will be constructed.",
+      "keywords": [
+        "preliminary",
+        "definitions",
+        "construction",
+        "trial",
+        "saving"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter II: Constitution of Criminal Courts and Offices",
+      "sections_range": "6-20",
+      "section_titles": [
+        "Section 6: Classes of Criminal Courts",
+        "Section 7: Territorial divisions",
+        "Section 8: Court of Session",
+        "Section 9: Courts of Judicial Magistrates",
+        "Section 10: Chief Judicial Magistrate and Additional Chief Judicial Magistrate, etc."
+      ],
+      "start_line": 46,
+      "end_line": 105,
+      "summary": "This chapter deals with the constitution of criminal courts and offices, including the establishment of courts of session, judicial magistrates, and executive magistrates.",
+      "keywords": [
+        "criminal courts",
+        "judicial magistrates",
+        "executive magistrates",
+        "court of session"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter III: Power of Courts",
+      "sections_range": "21-29",
+      "section_titles": [
+        "Section 21: Courts by which offences are triable",
+        "Section 22: Sentences which High Courts and Sessions Judges may pass",
+        "Section 23: Sentences which Magistrates may pass",
+        "Section 24: Sentence of imprisonment in default of fine",
+        "Section 25: Sentence in cases of conviction of several offences at one trial"
+      ],
+      "start_line": 106,
+      "end_line": 155,
+      "summary": "This chapter explains the powers of courts, including which courts can try offenses and what sentences they can impose.",
+      "keywords": [
+        "power of courts",
+        "trial",
+        "sentences",
+        "imprisonment",
+        "fine"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter IV: Powers of Superior Officers of Police and Aid to the Magistrates and the Police",
+      "sections_range": "30-34",
+      "section_titles": [
+        "Section 30: Powers of superior officers of police",
+        "Section 31: Public when to assist Magistrates and police",
+        "Section 32: Aid to person, other than police officer, executing warrant",
+        "Section 33: Public to give information of certain offences",
+        "Section 34: Duty of officers employed in connection with the affairs of a village to make certain report"
+      ],
+      "start_line": 156,
+      "end_line": 195,
+      "summary": "This chapter deals with the powers of superior officers of police and the aid they can provide to magistrates and the police.",
+      "keywords": [
+        "police powers",
+        "magistrates",
+        "aid",
+        "warrant",
+        "village officers"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter V: Arrest of Persons",
+      "sections_range": "35-62",
+      "section_titles": [
+        "Section 35: When police may arrest without warrant",
+        "Section 36: Procedure of arrest and duties of officer making arrest",
+        "Section 37: Designated Police Officer",
+        "Section 38: Right of arrested person to meet an advocate of his choice during interrogation",
+        "Section 39: Arrest on refusal to give name and residence"
+      ],
+      "start_line": 196,
+      "end_line": 255,
+      "summary": "This chapter explains the procedures for arresting persons, including when police can arrest without a warrant and the rights of the arrested person.",
+      "keywords": [
+        "arrest",
+        "police powers",
+        "warrant",
+        "rights of arrested person"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter VI: Processes to Compel Appearance",
+      "sections_range": "63-93",
+      "section_titles": [
+        "Section 63: Form of summons",
+        "Section 64: Summons how served",
+        "Section 65: Service of summons on corporate bodies, firms, and societies",
+        "Section 66: Service when persons summoned cannot be found",
+        "Section 67: Procedure when service cannot be effected as before provided"
+      ],
+      "start_line": 256,
+      "end_line": 315,
+      "summary": "This chapter deals with the processes used to compel the appearance of persons in court, including summons and warrants.",
+      "keywords": [
+        "summons",
+        "warrant",
+        "service",
+        "appearance"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter VII: Process to Compel the Production of Things",
+      "sections_range": "94-114",
+      "section_titles": [
+        "Section 94: Summons to produce document or other thing",
+        "Section 95: Procedure as to letters and telegrams",
+        "Section 96: When search-warrant may be issued",
+        "Section 97: Search of place suspected to contain stolen property, forged documents, etc.",
+        "Section 98: Power to declare certain publications forfeited and to issue search-warrants for the same"
+      ],
+      "start_line": 316,
+      "end_line": 375,
+      "summary": "This chapter explains the processes used to compel the production of things, including search warrants and summons to produce documents.",
+      "keywords": [
+        "search warrant",
+        "summons",
+        "production of things",
+        "documents"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter VIII: Reciprocal Arrangements for Assistance in Certain Matters and Procedure for Attachment and Forfeiture of Property",
+      "sections_range": "111-124",
+      "section_titles": [
+        "Section 111: Definitions",
+        "Section 112: Letter of request to competent authority for investigation in a country or place outside India",
+        "Section 113: Letter of request from a country or place outside India to a Court or an authority for investigation in India",
+        "Section 114: Assistance in securing transfer of persons",
+        "Section 115: Assistance in relation to orders of attachment or forfeiture of property"
+      ],
+      "start_line": 376,
+      "end_line": 435,
+      "summary": "This chapter deals with reciprocal arrangements for assistance in certain matters and the procedure for attachment and forfeiture of property.",
+      "keywords": [
+        "reciprocal arrangements",
+        "assistance",
+        "attachment",
+        "forfeiture",
+        "property"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter IX: Security for Keeping the Peace and for Good Behaviour",
+      "sections_range": "125-144",
+      "section_titles": [
+        "Section 125: Security for keeping the peace on conviction",
+        "Section 126: Security for keeping the peace in other cases",
+        "Section 127: Security for good behaviour from persons disseminating seditious matters",
+        "Section 128: Security for good behaviour from suspected persons",
+        "Section 129: Security for good behaviour from habitual offenders"
+      ],
+      "start_line": 436,
+      "end_line": 495,
+      "summary": "This chapter explains the provisions for security for keeping the peace and for good behaviour, including the conditions and procedures for imposing security.",
+      "keywords": [
+        "security",
+        "peace",
+        "good behaviour",
+        "conviction",
+        "seditious matters"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter X: Order for Maintenance of Wives, Children and Parents",
+      "sections_range": "144-147",
+      "section_titles": [
+        "Section 144: Order for maintenance of wives, children and parents",
+        "Section 145: Procedure",
+        "Section 146: Alteration in allowance",
+        "Section 147: Enforcement of order of maintenance"
+      ],
+      "start_line": 496,
+      "end_line": 515,
+      "summary": "This chapter deals with the provisions for ordering maintenance for wives, children, and parents, including the procedure and enforcement of such orders.",
+      "keywords": [
+        "maintenance",
+        "wives",
+        "children",
+        "parents",
+        "enforcement"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XI: Maintenance of Public Order and Tranquillity",
+      "sections_range": "148-167",
+      "section_titles": [
+        "Section 148: Dispersal of assembly by use of civil force",
+        "Section 149: Use of armed forces to disperse assembly",
+        "Section 150: Power of certain armed force officers to disperse assembly",
+        "Section 151: Protection against prosecution for acts done under sections 148, 149 and 150",
+        "Section 152: Conditional order for removal of nuisance"
+      ],
+      "start_line": 516,
+      "end_line": 555,
+      "summary": "This chapter explains the provisions for maintaining public order and tranquillity, including the dispersal of assemblies and the removal of nuisances.",
+      "keywords": [
+        "public order",
+        "tranquillity",
+        "assembly",
+        "nuisance",
+        "civil force"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XII: Preventive Action of the Police",
+      "sections_range": "168-172",
+      "section_titles": [
+        "Section 168: Police to prevent cognizable offences",
+        "Section 169: Information of design to commit cognizable offences",
+        "Section 170: Arrest to prevent the commission of cognizable offences",
+        "Section 171: Prevention of injury to public property",
+        "Section 172: Persons bound to conform to lawful directions of police"
+      ],
+      "start_line": 556,
+      "end_line": 585,
+      "summary": "This chapter deals with the preventive actions that the police can take, including preventing cognizable offenses and protecting public property.",
+      "keywords": [
+        "preventive action",
+        "police",
+        "cognizable offences",
+        "public property"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XIII: Information to the Police and Their Powers to Investigate",
+      "sections_range": "173-196",
+      "section_titles": [
+        "Section 173: Information in cognizable cases",
+        "Section 174: Information as to non-cognizable cases and investigation of such cases",
+        "Section 175: Police officer's power to investigate cognizable case",
+        "Section 176: Procedure for investigation",
+        "Section 177: Report how submitted"
+      ],
+      "start_line": 586,
+      "end_line": 635,
+      "summary": "This chapter explains the provisions for information to the police and their powers to investigate, including the procedures for investigating cognizable and non-cognizable cases.",
+      "keywords": [
+        "information",
+        "police",
+        "investigation",
+        "cognizable cases",
+        "non-cognizable cases"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XIV: Jurisdiction of the Criminal Courts in Inquiries and Trials",
+      "sections_range": "197-209",
+      "section_titles": [
+        "Section 197: Ordinary place of inquiry and trial",
+        "Section 198: Place of inquiry or trial",
+        "Section 199: Offence triable where act is done or consequence ensues",
+        "Section 200: Place of trial where act is an offence by reason of relation to other offence",
+        "Section 201: Place of trial in case of certain offences"
+      ],
+      "start_line": 636,
+      "end_line": 685,
+      "summary": "This chapter deals with the jurisdiction of criminal courts in inquiries and trials, including the ordinary place of inquiry and trial.",
+      "keywords": [
+        "jurisdiction",
+        "criminal courts",
+        "inquiries",
+        "trials",
+        "place of trial"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XV: Conditions Requisite for Initiation of Proceedings",
+      "sections_range": "210-222",
+      "section_titles": [
+        "Section 210: Cognizance of offences by Magistrates",
+        "Section 211: Transfer on application of the accused",
+        "Section 212: Making over of cases to Magistrates",
+        "Section 213: Cognizance of offences by Courts of Session",
+        "Section 214: Additional Sessions Judges to try cases made over to them"
+      ],
+      "start_line": 686,
+      "end_line": 735,
+      "summary": "This chapter explains the conditions required for initiating proceedings, including cognizance of offenses by magistrates and courts of session.",
+      "keywords": [
+        "initiation of proceedings",
+        "cognizance",
+        "magistrates",
+        "courts of session"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XVI: Complaints to Magistrates",
+      "sections_range": "223-226",
+      "section_titles": [
+        "Section 223: Examination of complainant",
+        "Section 224: Procedure by Magistrate not competent to take cognizance of the case",
+        "Section 225: Postponement of issue of process",
+        "Section 226: Dismissal of complaint"
+      ],
+      "start_line": 736,
+      "end_line": 755,
+      "summary": "This chapter deals with complaints to magistrates, including the examination of the complainant and the procedure for dismissing complaints.",
+      "keywords": [
+        "complaints",
+        "magistrates",
+        "examination",
+        "dismissal"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XVII: Commencement of Proceedings Before Magistrates",
+      "sections_range": "227-233",
+      "section_titles": [
+        "Section 227: Issue of process",
+        "Section 228: Magistrate may dispense with personal attendance of accused",
+        "Section 229: Special summons in cases of petty offence",
+        "Section 230: Supply to the accused of copy of police report and other documents",
+        "Section 231: Supply of copies of statements and documents to accused in other cases triable by Court of Session"
+      ],
+      "start_line": 756,
+      "end_line": 785,
+      "summary": "This chapter explains the commencement of proceedings before magistrates, including the issue of process and the supply of documents to the accused.",
+      "keywords": [
+        "commencement of proceedings",
+        "magistrates",
+        "issue of process",
+        "supply of documents"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XVIII: The Charge",
+      "sections_range": "234-247",
+      "section_titles": [
+        "Section 234: Contents of charge",
+        "Section 235: Particulars as to time, place and person",
+        "Section 236: When manner of committing offence must be stated",
+        "Section 237: Words in charge taken in sense of law under which offence is punishable",
+        "Section 238: Effect of errors"
+      ],
+      "start_line": 786,
+      "end_line": 835,
+      "summary": "This chapter deals with the charge, including its contents and the particulars that must be stated.",
+      "keywords": [
+        "charge",
+        "contents",
+        "particulars",
+        "errors"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XIX: Trial Before a Court of Session",
+      "sections_range": "248-260",
+      "section_titles": [
+        "Section 248: Trial to be conducted by Public Prosecutor",
+        "Section 249: Opening case for prosecution",
+        "Section 250: Discharge",
+        "Section 251: Framing of charge",
+        "Section 252: Conviction on plea of guilty"
+      ],
+      "start_line": 836,
+      "end_line": 885,
+      "summary": "This chapter explains the trial before a court of session, including the conduct of the trial by the public prosecutor and the framing of the charge.",
+      "keywords": [
+        "trial",
+        "court of session",
+        "public prosecutor",
+        "framing of charge"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XX: Trial of Warrant-Cases by Magistrates",
+      "sections_range": "261-273",
+      "section_titles": [
+        "Section 261: Compliance with section 231",
+        "Section 262: When accused shall be discharged",
+        "Section 263: Framing of charge",
+        "Section 264: Conviction on plea of guilty",
+        "Section 265: Evidence for prosecution"
+      ],
+      "start_line": 886,
+      "end_line": 935,
+      "summary": "This chapter deals with the trial of warrant-cases by magistrates, including the compliance with section 231 and the framing of the charge.",
+      "keywords": [
+        "trial",
+        "warrant-cases",
+        "magistrates",
+        "framing of charge"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter XXI: Trial of Summons-Cases by Magistrates",
+      "sections_range": "274-282",
+      "section_titles": [
+        "Section 274: Substance of accusation to be stated",
+        "Section 275: Conviction on plea of guilty",
+        "Section 276: Conviction on plea of guilty in absence of accused in petty cases",
+        "Section 277: Procedure when not convicted",
+        "Section 278: Acquittal or conviction"
+      ],
+      "start_line": 936,
+      "end_line": 985,
+      "summary": "This chapter explains the trial of summons-cases by magistrates, including the statement of the substance of the accusation and the conviction on plea of guilty.",
+      "keywords": [
+        "trial",
+        "summons-cases",
+        "magistrates",
+        "conviction on plea of guilty"
+      ],
+      "sub_sections": []
+    }
+  ]
+}

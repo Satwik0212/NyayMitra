@@ -1,0 +1,129 @@
+{
+  "act_name": "The Protection of Women from Domestic Violence Act, 2005",
+  "act_year": 2005,
+  "jurisdiction": "India",
+  "total_sections": 37,
+  "chapters": [
+    {
+      "chapter_title": "Chapter I: Preliminary",
+      "sections_range": "1-2",
+      "section_titles": [
+        "Section 1: Short title, extent and commencement",
+        "Section 2: Definitions"
+      ],
+      "start_line": 1,
+      "end_line": 5,
+      "summary": "This chapter introduces the Act and defines key terms. It explains the purpose and scope of the Act.",
+      "keywords": [
+        "domestic violence",
+        "women",
+        "protection",
+        "rights"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter II: Domestic Violence",
+      "sections_range": "3",
+      "section_titles": [
+        "Section 3: Definition of domestic violence"
+      ],
+      "start_line": 6,
+      "end_line": 10,
+      "summary": "This chapter defines domestic violence and its various forms, including physical, emotional, and economic abuse.",
+      "keywords": [
+        "abuse",
+        "violence",
+        "emotional",
+        "physical",
+        "economic"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter III: Powers and Duties of Protection Officers, Service Providers, Etc.",
+      "sections_range": "4-11",
+      "section_titles": [
+        "Section 4: Information to Protection Officer and exclusion of liability of informant",
+        "Section 5: Duties of police officers, service providers and Magistrate",
+        "Section 6: Duties of shelter homes",
+        "Section 7: Duties of medical facilities",
+        "Section 8: Appointment of Protection Officers",
+        "Section 9: Duties and functions of Protection Officers",
+        "Section 10: Service providers",
+        "Section 11: Duties of Government"
+      ],
+      "start_line": 11,
+      "end_line": 25,
+      "summary": "This chapter outlines the roles and responsibilities of Protection Officers, service providers, and government agencies in preventing and addressing domestic violence.",
+      "keywords": [
+        "protection officers",
+        "service providers",
+        "government",
+        "duties",
+        "responsibilities"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter IV: Procedure for Obtaining Orders of Reliefs",
+      "sections_range": "12-28",
+      "section_titles": [
+        "Section 12: Application to Magistrate",
+        "Section 13: Service of notice",
+        "Section 14: Counselling",
+        "Section 15: Assistance of welfare expert",
+        "Section 16: Proceedings to be held in camera",
+        "Section 17: Right to reside in a shared household",
+        "Section 18: Protection orders",
+        "Section 19: Residence orders",
+        "Section 20: Monetary reliefs",
+        "Section 21: Custody orders",
+        "Section 22: Compensation orders",
+        "Section 23: Power to grant interim and ex parte orders",
+        "Section 24: Court to give copies of order free of cost",
+        "Section 25: Duration and alteration of orders",
+        "Section 26: Relief in other suits and legal proceedings",
+        "Section 27: Jurisdiction",
+        "Section 28: Procedure"
+      ],
+      "start_line": 26,
+      "end_line": 45,
+      "summary": "This chapter explains the procedures for obtaining protection orders, residence orders, and other forms of relief for victims of domestic violence.",
+      "keywords": [
+        "protection orders",
+        "residence orders",
+        "monetary reliefs",
+        "custody orders",
+        "compensation orders"
+      ],
+      "sub_sections": []
+    },
+    {
+      "chapter_title": "Chapter V: Miscellaneous",
+      "sections_range": "29-37",
+      "section_titles": [
+        "Section 29: Appeal",
+        "Section 30: Protection Officers and members of service providers to be public servants",
+        "Section 31: Penalty for breach of protection order by respondent",
+        "Section 32: Cognizance and proof",
+        "Section 33: Penalty for not discharging duty by Protection Officer",
+        "Section 34: Cognizance of offence committed by Protection Officer",
+        "Section 35: Protection of action taken in good faith",
+        "Section 36: Act not in derogation of any other law",
+        "Section 37: Power of Central Government to make rules"
+      ],
+      "start_line": 46,
+      "end_line": 60,
+      "summary": "This chapter covers various miscellaneous provisions, including appeals, penalties, and the power of the Central Government to make rules.",
+      "keywords": [
+        "appeal",
+        "penalty",
+        "rules",
+        "public servants",
+        "cognizance"
+      ],
+      "sub_sections": []
+    }
+  ]
+}
