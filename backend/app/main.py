@@ -18,6 +18,7 @@ from app.services.blockchain_service import blockchain_service
 from app.services.evidence_service import evidence_service
 from app.services.firebase_service import firebase_service
 
+
 logger = logging.getLogger(__name__)
 
 app = FastAPI(
@@ -35,6 +36,8 @@ async def startup_event():
     print(f"{'[OK]' if blockchain_service.is_available() else '[FAIL]'} Blockchain: {'connected' if blockchain_service.is_available() else 'unavailable'}")
     print(f"{'[OK]' if evidence_service.is_available() else '[FAIL]'} Evidence/IPFS: {'connected' if evidence_service.is_available() else 'unavailable'}")
     print(f"{'[OK]' if firebase_service.is_available() else '[FAIL]'} Firebase: {'connected' if firebase_service.is_available() else 'unavailable'}")
+    
+
     print("="*50 + "\n")
 
 app.add_middleware(
@@ -99,3 +102,4 @@ app.include_router(process.router, prefix="/api/v1", tags=["process"])
 app.include_router(precedents.router, prefix="/api/v1", tags=["precedents"])
 app.include_router(updates.router, prefix="/api/v1", tags=["updates"])
 app.include_router(history.router, prefix="/api/v1", tags=["history"])
+
