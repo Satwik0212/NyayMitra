@@ -1,0 +1,108 @@
+{
+  "consumer_forum": {
+    "flow_type": "consumer_forum",
+    "title": "Consumer Court Complaint Process",
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Send a Legal Notice",
+        "description": "Before filing a complaint, send a formal legal notice to the opposite party giving them 15-30 days to resolve the issue.",
+        "duration_estimate": "15-30 days"
+      },
+      {
+        "step_number": 2,
+        "title": "Draft the Complaint",
+        "description": "Prepare the consumer complaint outlining facts, evidence, and relief sought.",
+        "duration_estimate": "2-5 days"
+      },
+      {
+        "step_number": 3,
+        "title": "File the Complaint",
+        "description": "Submit the complaint to the appropriate Consumer Disputes Redressal Commission based on monetary jurisdiction.",
+        "duration_estimate": "1 day"
+      }
+    ]
+  },
+  "rent_tribunal": {
+    "flow_type": "rent_tribunal",
+    "title": "Rent Control Tribunal Process",
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Notice to Vacate/Pay",
+        "description": "Serve a formal legal notice for eviction or pending rent payment.",
+        "duration_estimate": "30 days"
+      },
+      {
+        "step_number": 2,
+        "title": "Filing Eviction Suit",
+        "description": "File a suit before the Rent Controller/Tribunal.",
+        "duration_estimate": "1 day"
+      }
+    ]
+  },
+  "fir_process": {
+    "flow_type": "fir_process",
+    "title": "FIR Filing Process",
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Visit Police Station",
+        "description": "Go to the police station with jurisdiction over the incident area."
+      },
+      {
+        "step_number": 2,
+        "title": "Submit Written Complaint",
+        "description": "Submit a written complaint detailing the incident."
+      },
+      {
+        "step_number": 3,
+        "title": "Obtain FIR Copy",
+        "description": "Collect a free copy of the registered FIR."
+      }
+    ]
+  },
+  "rti_filing": {
+    "flow_type": "rti_filing",
+    "title": "RTI Application Process",
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Identify Public Authority",
+        "description": "Determine which government department holds the information."
+      },
+      {
+        "step_number": 2,
+        "title": "Draft & Submit Application",
+        "description": "Write the RTI application and submit it with the prescribed fee (usually Rs. 10)."
+      },
+      {
+        "step_number": 3,
+        "title": "Wait for Response",
+        "description": "The PIO is required to respond within 30 days.",
+        "duration_estimate": "30 days"
+      }
+    ]
+  },
+  "labor_court": {
+    "flow_type": "labor_court",
+    "title": "Labor Court Dispute Process",
+    "steps": [
+      {
+        "step_number": 1,
+        "title": "Demand letter",
+        "description": "Send a demand letter to the employer."
+      },
+      {
+        "step_number": 2,
+        "title": "Conciliation",
+        "description": "Approach the Labor Conciliation Officer."
+      },
+      {
+        "step_number": 3,
+        "title": "Filing the Case",
+        "description": "If conciliation fails, file a case before the Labor Court/Industrial Tribunal."
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "act_name": "Bharatiya Nyaya Sanhita (BNS)",
+    "year": 2023,
+    "summary": "Replaces the Indian Penal Code (IPC), 1860. Focuses on justice rather than punishment, introducing new offenses and redefining existing ones.",
+    "key_changes": [
+      "Introduction of community service as a punishment.",
+      "New provisions for organized crime and terrorism.",
+      "Changes in laws relating to women and children.",
+      "Removal of sedation law, replaced with offenses against the state."
+    ],
+    "effective_date": "July 1, 2024"
+  },
+  {
+    "act_name": "Bharatiya Nagarik Suraksha Sanhita (BNSS)",
+    "year": 2023,
+    "summary": "Replaces the Code of Criminal Procedure (CrPC), 1973. Aims to modernize and expedite the criminal justice process.",
+    "key_changes": [
+      "Mandatory forensic investigation for offenses punishable with 7+ years.",
+      "Digitization of FIRs, case diaries, and trial proceedings.",
+      "Time limits prescribed for investigations and judgments.",
+      "Provisions for zero FIR and e-FIR."
+    ],
+    "effective_date": "July 1, 2024"
+  },
+  {
+    "act_name": "Bharatiya Sakshya Adhiniyam (BSA)",
+    "year": 2023,
+    "summary": "Replaces the Indian Evidence Act, 1872. Modernizes rules of evidence to include electronic and digital records.",
+    "key_changes": [
+      "Electronic or digital records equated with paper evidence.",
+      "Expanded definition of 'document' to include digital footprints.",
+      "Changes in provisions related to admissibility of electronic records.",
+      "More stringent rules for electronic evidence preservation."
+    ],
+    "effective_date": "July 1, 2024"
+  },
+  {
+    "act_name": "Digital Personal Data Protection (DPDP) Act",
+    "year": 2023,
+    "summary": "Comprehensive framework for the processing of digital personal data, recognizing individuals' right to protect their data.",
+    "key_changes": [
+      "Consent is the primary basis for data processing.",
+      "Creation of the Data Protection Board of India.",
+      "Significant penalties for data breaches (up to ₹250 crores).",
+      "Rights for data principals (individuals) to access, correct, and erase data."
+    ],
+    "effective_date": "TBD"
+  },
+  {
+    "act_name": "Mediation Act",
+    "year": 2023,
+    "summary": "Provides an institutional framework to promote and facilitate mediation, especially institutional mediation, in civil and commercial disputes.",
+    "key_changes": [
+      "Mandatory pre-litigation mediation for certain disputes.",
+      "Establishment of the Mediation Council of India.",
+      "Time limit of 180 days (extendable by 180 days) for completing mediation.",
+      "Mediation settlement agreements are final and binding."
+    ],
+    "effective_date": "Partial implementation in 2023/2024"
+  },
+  {
+    "act_name": "Consumer Protection Act",
+    "year": 2019,
+    "summary": "Repealed the 1986 Act to modernize consumer rights, specifically addressing e-commerce, direct selling, and telemarketing.",
+    "key_changes": [
+      "Establishment of Central Consumer Protection Authority (CCPA).",
+      "Strict laws relating to product liability.",
+      "Inclusion of e-commerce platforms under consumer protection rules.",
+      "Higher pecuniary jurisdiction for District, State, and National Commissions."
+    ],
+    "effective_date": "July 20, 2020"
+  },
+  {
+    "act_name": "Labor Codes",
+    "year": 2020,
+    "summary": "Consolidation of 29 central labor laws into 4 distinct codes to simplify and modernize labor regulations.",
+    "key_changes": [
+      "Code on Wages: Universalization of minimum wages.",
+      "Industrial Relations Code: Adjusted thresholds for standing orders and union recognition.",
+      "Code on Social Security: Extending social security to gig/platform workers.",
+      "Occupational Safety, Health and Working Conditions Code: Enhanced safety standards for workers."
+    ],
+    "effective_date": "Draft rules published, effective date TBD"
+  },
+  {
+    "act_name": "Motor Vehicles (Amendment) Act",
+    "year": 2019,
+    "summary": "Amended the 1988 Act to improve road safety, facilitate transport licensing, and overhaul penalties.",
+    "key_changes": [
+      "Substantially increased penalties for traffic violations.",
+      "Creation of a National Road Safety Board.",
+      "Holding guardians/vehicle owners responsible for offenses by juveniles.",
+      "Recall of defective vehicles by essentially empowering the Center."
+    ],
+    "effective_date": "September 1, 2019"
+  }
+]
