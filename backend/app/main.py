@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from app.config import settings
 
-from app.routers import analyze, chat, documents, blockchain, process, precedents, updates, history
+from app.routers import analyze, chat, documents, blockchain, process, precedents, updates, history, lawyers
 from app.routers.auth import router as auth_router
 import logging
 
@@ -102,4 +102,5 @@ app.include_router(process.router, prefix="/api/v1", tags=["process"])
 app.include_router(precedents.router, prefix="/api/v1", tags=["precedents"])
 app.include_router(updates.router, prefix="/api/v1", tags=["updates"])
 app.include_router(history.router, prefix="/api/v1", tags=["history"])
+app.include_router(lawyers.router, prefix="/api/v1", tags=["lawyers"])
 

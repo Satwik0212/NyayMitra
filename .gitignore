@@ -18,14 +18,12 @@ __pycache__/
 dist/
 build/
 .eggs/
-
-# Virtual Environment
 .venv/
 venv/
 env/
 ENV/
 
-# ChromaDB (vector database — generated locally)
+# ChromaDB / Vector DB (deprecated but just in case)
 chroma_db/
 backend/chroma_db/
 
@@ -36,6 +34,7 @@ backend/chroma_db/
 *.swo
 *~
 .cursor/
+.cursorignore
 
 # OS
 .DS_Store
@@ -44,11 +43,10 @@ desktop.ini
 
 # Logs & Test Artifacts
 *.log
-*.txt
-!requirements.txt
-!README.md
+backend/*.txt
+!backend/requirements.txt
 
-# Node (for frontend later)
+# Node (frontend)
 node_modules/
 .next/
 dist/
@@ -56,4 +54,9 @@ dist/
 # Misc
 *.bak
 *.tmp
+*.orig
 .cache/
+
+# Test scripts (if any remain)
+backend/test_*.py
+backend/scripts/test_*.py
